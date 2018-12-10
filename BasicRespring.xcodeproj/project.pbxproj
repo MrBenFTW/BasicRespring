@@ -71,12 +71,8 @@
 		86E3768621B883FE00F0F080 = {
 			isa = PBXGroup;
 			children = (
-				86E3771521B88BCA00F0F080 /* Fonts */,
-				86E3770E21B8863400F0F080 /* Exploit */,
-				86E376AB21B884CA00F0F080 /* UI */,
 				86E3769121B883FE00F0F080 /* BasicRespring */,
 				86E3769021B883FE00F0F080 /* Products */,
-				86E376A821B8840F00F0F080 /* BasicRespring-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,12 +87,16 @@
 		86E3769121B883FE00F0F080 /* BasicRespring */ = {
 			isa = PBXGroup;
 			children = (
+				86E3771521B88BCA00F0F080 /* Fonts */,
+				86E3770E21B8863400F0F080 /* Exploit */,
+				86E376AB21B884CA00F0F080 /* UI */,
 				86E3769221B883FE00F0F080 /* AppDelegate.h */,
 				86E3769321B883FE00F0F080 /* AppDelegate.m */,
 				86E3769B21B883FE00F0F080 /* Assets.xcassets */,
 				86E3769D21B883FE00F0F080 /* LaunchScreen.storyboard */,
 				86E376A021B883FE00F0F080 /* Info.plist */,
 				86E376A121B883FE00F0F080 /* main.m */,
+				86E376A821B8840F00F0F080 /* BasicRespring-Bridging-Header.h */,
 			);
 			path = BasicRespring;
 			sourceTree = "<group>";
@@ -371,7 +371,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Q758D2PLHU;
 				INFOPLIST_FILE = BasicRespring/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -381,7 +381,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.benmitchell.BasicRespring;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "BasicRespring-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "BasicRespring/BasicRespring-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -395,7 +395,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Q758D2PLHU;
 				INFOPLIST_FILE = BasicRespring/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -405,7 +405,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.benmitchell.BasicRespring;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "BasicRespring-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "BasicRespring/BasicRespring-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
